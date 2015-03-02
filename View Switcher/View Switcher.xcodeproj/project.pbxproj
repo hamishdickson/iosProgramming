@@ -13,6 +13,8 @@
 		40C31DA91AA4AD2800E477CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C31DA71AA4AD2800E477CF /* LaunchScreen.xib */; };
 		40C31DB51AA4AD2800E477CF /* View_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C31DB41AA4AD2800E477CF /* View_SwitcherTests.swift */; };
 		40C31DBF1AA4AD6100E477CF /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C31DBE1AA4AD6100E477CF /* SwitchingViewController.swift */; };
+		40C31DC11AA4AE2500E477CF /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C31DC01AA4AE2500E477CF /* BlueViewController.swift */; };
+		40C31DC31AA4AE3300E477CF /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C31DC21AA4AE3300E477CF /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		40C31DB31AA4AD2800E477CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40C31DB41AA4AD2800E477CF /* View_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_SwitcherTests.swift; sourceTree = "<group>"; };
 		40C31DBE1AA4AD6100E477CF /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		40C31DC01AA4AE2500E477CF /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		40C31DC21AA4AE3300E477CF /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				40C31DA71AA4AD2800E477CF /* LaunchScreen.xib */,
 				40C31D9C1AA4AD2800E477CF /* Supporting Files */,
 				40C31DBE1AA4AD6100E477CF /* SwitchingViewController.swift */,
+				40C31DC01AA4AE2500E477CF /* BlueViewController.swift */,
+				40C31DC21AA4AE3300E477CF /* YellowViewController.swift */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C31DC31AA4AE3300E477CF /* YellowViewController.swift in Sources */,
 				40C31D9F1AA4AD2800E477CF /* AppDelegate.swift in Sources */,
+				40C31DC11AA4AE2500E477CF /* BlueViewController.swift in Sources */,
 				40C31DBF1AA4AD6100E477CF /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
