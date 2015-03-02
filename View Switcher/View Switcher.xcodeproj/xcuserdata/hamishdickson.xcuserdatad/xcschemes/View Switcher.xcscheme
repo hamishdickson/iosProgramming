@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40E072011AA4566B0022C866"
+               BlueprintIdentifier = "40C31D981AA4AD2800E477CF"
                BuildableName = "View Switcher.app"
                BlueprintName = "View Switcher"
                ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40E072161AA4566C0022C866"
+               BlueprintIdentifier = "40C31DAD1AA4AD2800E477CF"
                BuildableName = "View SwitcherTests.xctest"
                BlueprintName = "View SwitcherTests"
                ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40E072161AA4566C0022C866"
+               BlueprintIdentifier = "40C31DAD1AA4AD2800E477CF"
                BuildableName = "View SwitcherTests.xctest"
                BlueprintName = "View SwitcherTests"
                ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40E072011AA4566B0022C866"
+            BlueprintIdentifier = "40C31D981AA4AD2800E477CF"
             BuildableName = "View Switcher.app"
             BlueprintName = "View Switcher"
             ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40E072011AA4566B0022C866"
+            BlueprintIdentifier = "40C31D981AA4AD2800E477CF"
             BuildableName = "View Switcher.app"
             BlueprintName = "View Switcher"
             ReferencedContainer = "container:View Switcher.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40E072011AA4566B0022C866"
+            BlueprintIdentifier = "40C31D981AA4AD2800E477CF"
             BuildableName = "View Switcher.app"
             BlueprintName = "View Switcher"
             ReferencedContainer = "container:View Switcher.xcodeproj">
