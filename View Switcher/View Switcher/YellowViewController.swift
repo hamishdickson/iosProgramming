@@ -21,6 +21,13 @@ class YellowViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func yellowButtonPressed(sender: UIButton) {
+        let alert = UIAlertController(title: "Yellow view button pressed", message: "You pressed the yellow button on the yellow view", preferredStyle: .Alert)
+        let action = UIAlertAction(title: "Yep, I did", style: .Default, handler: nil)
+        alert.addAction(action)
+        presentViewController(alert, animated: true, completion: nil)
+    }
+    
 
     /*
     // MARK: - Navigation

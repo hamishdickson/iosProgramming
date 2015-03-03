@@ -21,6 +21,13 @@ class BlueViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func blueButtonPressed(sender: UIButton) {
+        let alert = UIAlertController(title: "Blue view button pressed", message: "You pressed the blue button on the blue view", preferredStyle: .Alert)
+        let action = UIAlertAction(title: "Yep, I did", style: .Default, handler: nil)
+        alert.addAction(action)
+        presentViewController(alert, animated: true, completion: nil)
+    }
+    
 
     /*
     // MARK: - Navigation
