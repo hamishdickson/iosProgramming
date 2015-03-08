@@ -8,7 +8,9 @@
 
 import UIKit
 
-class SingleComponentPickerViewController: UIViewController {
+class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+
+    @IBOutlet weak var singlePicker: UIPickerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
