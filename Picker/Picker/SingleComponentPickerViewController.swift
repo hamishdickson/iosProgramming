@@ -34,4 +34,6 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     }
     */
 
+    @IBAction func buttonPressed(sender: AnyObject) {
+    }
 }
