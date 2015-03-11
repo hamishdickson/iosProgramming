@@ -10,6 +10,8 @@ import UIKit
 
 class DoubleComponentPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
+    @IBOutlet weak var doublePicker: UIPickerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +34,6 @@ class DoubleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     }
     */
 
+    @IBAction func buttonPressed(sender: AnyObject) {
+    }
 }

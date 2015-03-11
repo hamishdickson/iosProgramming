@@ -62,9 +62,36 @@
                     <view key="view" contentMode="scaleToFill" id="otf-HV-w64">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBg-5o-Hki">
+                                <rect key="frame" x="140" y="0.0" width="320" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="aex-Vt-iWr" id="8G2-Yj-ECA"/>
+                                    <outlet property="delegate" destination="aex-Vt-iWr" id="HmJ-Mn-tlc"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pw3-yo-UGX">
+                                <rect key="frame" x="279" y="170" width="43" height="30"/>
+                                <state key="normal" title="Select">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="aex-Vt-iWr" eventType="touchUpInside" id="jxw-oO-na4"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pw3-yo-UGX" firstAttribute="top" secondItem="jBg-5o-Hki" secondAttribute="bottom" constant="8" id="72B-bj-EdS"/>
+                            <constraint firstItem="jBg-5o-Hki" firstAttribute="top" secondItem="otf-HV-w64" secondAttribute="topMargin" id="8ue-Kq-xIT"/>
+                            <constraint firstItem="jBg-5o-Hki" firstAttribute="top" secondItem="otf-HV-w64" secondAttribute="topMargin" id="IPA-1Q-ACO"/>
+                            <constraint firstAttribute="centerX" secondItem="jBg-5o-Hki" secondAttribute="centerX" id="muE-NB-V90"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Double" image="doubleicon" id="X6W-fS-htf"/>
+                    <connections>
+                        <outlet property="doublePicker" destination="jBg-5o-Hki" id="dhw-tJ-sYY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGu-2R-JKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
