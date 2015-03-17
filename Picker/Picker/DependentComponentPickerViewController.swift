@@ -8,8 +8,16 @@
 
 import UIKit
 
-class DependentComponentPickerViewController: UIViewController {
+class DependentComponentPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
+    @IBOutlet weak var dependentPicker: UIPickerView!
+    
+    private let stateComponent = 0
+    private let zipComponent = 0
+    private var stateZips:[String: [String]]!
+    private var states:[String]!
+    private var zips:[String]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +40,6 @@ class DependentComponentPickerViewController: UIViewController {
     }
     */
 
+    @IBAction func buttonPressed(sender: UIButton) {
+    }
 }
