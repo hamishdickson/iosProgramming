@@ -41,5 +41,12 @@ class DependentComponentPickerViewController: UIViewController, UIPickerViewDele
     */
 
     @IBAction func buttonPressed(sender: UIButton) {
+        let stateRow = dependentPicker.selectedRowInComponent(stateComponent)
+        let zipRow = dependentPicker.selectedRowInComponent(zipComponent)
+        
+        let state = states[stateRow]
+        let zip = zips[zipRow]
+        
+        
     }
 }
