@@ -99,4 +99,13 @@ class DependentComponentPickerViewController: UIViewController, UIPickerViewDele
             dependentPicker.selectRow(0, inComponent: zipComponent, animated: true)
         }
     }
+    
+    func pickerView(pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
+        let pickerWider = pickerView.bounds.size.width
+        if component == zipComponent {
+            return pickerWider/3
+        } else {
+            return 2 * pickerWider/3
+        }
+    }
 }
