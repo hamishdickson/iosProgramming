@@ -9,7 +9,9 @@
 import UIKit
 
 class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    @IBOutlet weak var picker: UIPickerView!
     private var images: [UIImage]!
+    @IBOutlet weak var winLabel: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,4 +35,6 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
     }
     */
 
+    @IBAction func spin(sender: UIButton) {
+    }
 }
