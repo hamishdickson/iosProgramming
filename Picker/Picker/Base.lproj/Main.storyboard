@@ -207,7 +207,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJI-tj-I3Z">
+                            <pickerView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJI-tj-I3Z">
                                 <rect key="frame" x="140" y="0.0" width="320" height="162"/>
                                 <connections>
                                     <outlet property="dataSource" destination="6Mg-0M-v4N" id="DFU-tY-oXk"/>
