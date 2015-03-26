@@ -17,6 +17,36 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        images = [UIImage(named: "seven")!,
+            UIImage(named: "bar")!,
+            UIImage(named: "crown")!,
+            UIImage(named: "cherry")!,
+            UIImage(named: "lemon")!,
+            UIImage(named: "apple")!]
+        
+        winLabel.text = " "
+        
+        // MARK:-
+        // MARK: Picker Data Source Methods
+        func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+            return 5
+        }
+        
+        func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+            return images.count
+        }
+        
+        // MARK:-
+        // MARK: Picker Delegate Methods
+        func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView!) -> UIView {
+            let image = images[row]
+            let imageView = UIImageView(image: image)
+            return imageView
+        }
+        
+        func pickerView(pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
+            return 64
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,7 +71,7 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
         var lastVal = -1
         
         for i 0..<5 {
-            let newValue = Int(arc4random_uniform(<#UInt32#>(images.count)))
+            let newValue = Int(arc4random_uniform(UInt32(images.count)))
             if newValue == lastVal {
                 numInRow++
             } else {
