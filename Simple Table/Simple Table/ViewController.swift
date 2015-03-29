@@ -39,13 +39,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var cell = tableView.dequeueReusableCellWithIdentifier(simpleTableIdentifier) as? UITableViewCell
         
         if (cell == nil) {
-            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: simpleTableIdentifier)
+            cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: simpleTableIdentifier)
         }
         
         let image = UIImage(named: "star")
         cell!.imageView.image = image
         let highlightedImage = UIImage(named: "star2")
         cell!.imageView.highlightedImage = highlightedImage
+        
+        if indexPath.row < 7 {
+            cell!.detailTextLabel?.text = "Mr Disney"
+        } else {
+            cell!.detailTextLabel?.text = "Mr Tolkin"
+        }
         
         cell!.textLabel.text = dwarves[indexPath.row]
         return cell!
