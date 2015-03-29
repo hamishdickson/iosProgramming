@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Wgh-FZ-KPH">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="oIg-1G-Wfb"/>
@@ -27,7 +27,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Wgh-FZ-KPH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8j2-6z-QCV"/>
+                            <constraint firstItem="Wgh-FZ-KPH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="8j2-6z-QCV"/>
                             <constraint firstAttribute="trailing" secondItem="Wgh-FZ-KPH" secondAttribute="trailing" id="Wre-N9-TiY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wgh-FZ-KPH" secondAttribute="bottom" id="Wsf-5P-F7V"/>
                             <constraint firstItem="Wgh-FZ-KPH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zYv-JT-GqA"/>
